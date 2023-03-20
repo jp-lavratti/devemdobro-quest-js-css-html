@@ -1,0 +1,82 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  background: url(../images/bg-repeat.jpg);
+  background-size: 100% 100%;
+  display: flex;
+  width: 800px;
+  height: 402px;
+  padding: 0 40px;
+  border-radius: 5px;
+}
+.textos-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  color: #ffffff;
+  gap: 11px;
+}
+.textos-flex h1 {
+  font-size: 20px;
+  font-weight: 900;
+}
+.textos-flex .msg-text {
+  font-size: 15px;
+  font-weight: 400;
+}
+.inputs-btn {
+  display: flex;
+  flex-direction: column;
+  min-width: 340px;
+  min-height: 378px;
+  padding: 21px;
+  gap: 15px;
+  background-color: #ffffff;
+  margin: 12px 10px 12px 8px;
+}
+.inputs-btn div {
+  display: flex;
+  flex-direction: column;
+}
+.inputs-btn span {
+  max-height: 0px;
+  font-size: 8px;
+  color: #f52e2e;
+}
+.inputs-btn
+input,
+textarea {
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px black solid;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.inputs-btn textarea {
+  height: 100px;
+}
+.inputs-btn .campos-obrigatorios {
+  font-size: 15px;
+}
+.inputs-btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3ccc87;
+  color: #ffffff;
+  border: 0;
+  height: 41px;
+  border-radius: 3px;
+}
