@@ -12,7 +12,7 @@ main {
   background-size: 100% 100%;
   display: flex;
   width: 800px;
-  height: 402px;
+  min-height: 402px;
   padding: 0 40px;
   border-radius: 5px;
 }
@@ -65,7 +65,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 .inputs-btn textarea {
-  height: 100px;
+  min-height: 100px;
 }
 .inputs-btn .campos-obrigatorios {
   font-size: 15px;
@@ -77,6 +77,6 @@ input::-webkit-inner-spin-button {
   background-color: #3ccc87;
   color: #ffffff;
   border: 0;
-  height: 41px;
+  min-height: 41px;
   border-radius: 3px;
 }
